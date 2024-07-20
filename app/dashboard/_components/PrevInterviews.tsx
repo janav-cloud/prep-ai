@@ -6,6 +6,7 @@ import { useUser } from '@clerk/nextjs';
 import { desc, eq } from 'drizzle-orm';
 import { useEffect, useState } from 'react'
 import InterviewCard from './InterviewCard';
+import { toast } from 'sonner';
 
 function PrevInterviews() {
 
@@ -18,6 +19,12 @@ function PrevInterviews() {
     }, [user])
 
     const FetchPreviousInterview = async() => {
+
+        if (!user?.primaryEmailAddress?.emailAddress) {
+            toast("Error occured while fetching Email Address! Refresh Your Page");
+            return;
+        }
+    
         const prevInterviews = await db.select()
         .from(PrepAIMock)
         .where(eq(PrepAIMock.createdByUser, user?.primaryEmailAddress?.emailAddress))
