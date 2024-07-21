@@ -34,6 +34,7 @@ function Record({questionData, questionIndex, interviewData}:QuestionArray) {
     setResults
   } = useSpeechToText({
     continuous: true,
+    crossBrowser: true,
     useLegacyResults: false
   });
 
