@@ -4,7 +4,7 @@ export default defineConfig({
  schema: "./utils/schema.ts",
   dialect: 'postgresql',
   dbCredentials: {
-    url: "postgresql://neondb_owner:TGhSdf4v5jKc@ep-dawn-scene-a2bjkq0m-pooler.eu-central-1.aws.neon.tech/neondb?sslmode=require"
+    url: "postgresql://neondb_owner:SJvw4m2MVLyQ@ep-cold-mountain-a589xo3t-pooler.us-east-2.aws.neon.tech/neondb?sslmode=require"
   },
   verbose: true,
   strict: true,
