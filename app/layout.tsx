@@ -8,8 +8,8 @@ import { Toaster } from "sonner";
 const baseFont = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "PrepAI",
-  description: "Boost your Interview Preps with PrepAI.",
+  title: "SmartHire",
+  description: "Boost your Interview Preps with SmartHire.",
 };
 
 export default function RootLayout({
