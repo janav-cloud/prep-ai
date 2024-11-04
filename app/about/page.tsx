@@ -9,7 +9,7 @@ const About = () => {
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
-            How does PrepAI work? 💡
+            How does SmartHire work? 💡
           </h2>
 
           <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -29,7 +29,7 @@ const About = () => {
         </summary>
 
         <p className="mt-4 leading-relaxed text-gray-700">
-        PrepAI, powered by Gemini AI technology, makes interview prep as easy as pie (chart). Our AI simulates real interviews, analyzes your responses, and serves up feedback hotter than a freshly brewed cup of coffee from&nbsp;<a href="https://corridorseven.coffee/" className='font-bold text-amber-600 underline underline-offset-2'>Corridor 7.</a>
+        SmartHire, powered by Gemini AI technology, makes interview prep as easy as pie (chart). Our AI simulates real interviews, analyzes your responses, and serves up feedback hotter than a freshly brewed cup of coffee from&nbsp;<a href="https://corridorseven.coffee/" className='font-bold text-amber-600 underline underline-offset-2'>Corridor 7.</a>
         </p>
       </details>
 
@@ -38,7 +38,7 @@ const About = () => {
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
-            PrepAI or Interview Wingman? 🪽
+            SmartHire or Interview Wingman? 🪽
           </h2>
 
           <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">
@@ -58,7 +58,7 @@ const About = () => {
         </summary>
 
         <p className="mt-4 leading-relaxed text-gray-700">
-        PrepAI is your go-to interview wingman, whether you're a fresh graduate or a seasoned pro. Everyone deserves a shot at acing interviews, and PrepAI's got your back!
+        SmartHire is your go-to interview wingman, whether you're a fresh graduate or a seasoned pro. Everyone deserves a shot at acing interviews, and SmartHire's got your back!
         </p>
       </details>
 
@@ -67,7 +67,7 @@ const About = () => {
       >
         <summary className="flex cursor-pointer items-center justify-between gap-1.5">
           <h2 className="text-lg font-medium text-gray-900">
-            Highlights of PrepAI 🌟
+            Highlights of SmartHire 🌟
           </h2>
 
           <span className="shrink-0 rounded-full bg-white p-1.5 text-gray-900 sm:p-3">

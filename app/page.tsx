@@ -9,10 +9,10 @@ function page() {
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-            <span className='text-blue-600'>Preparing to Impress?</span><br/>Prep<span className='text-blue-500'>AI</span> makes it easy :)
+            <span className='text-blue-600'>Preparing to Impress?</span><br/>Smart<span className='text-blue-500'>Hire</span> makes it easy :)
           </h1>
           <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Boost confidence with <span className='font-bold text-slate-900'>Prep<span className='text-blue-500'>AI</span></span>, your ultimate preparation partner for acing interviews and meetings!
+            Boost confidence with <span className='font-bold text-slate-900'>Smart<span className='text-blue-500'>Hire</span></span>, your ultimate preparation partner for acing interviews and meetings!
           </p>
           <div className='flex flex-col md:flex-row gap-2'>
             <Link

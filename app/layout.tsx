@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import Header from "./_components/Header";
-import Footer from "./_components/Footer";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
 
@@ -22,13 +21,12 @@ export default function RootLayout({
     <ClerkProvider>  
       <html lang="en">
         <body className={baseFont.className}>
-          <div className="flex flex-col min-h-screen bg-sky-100">
+          <div className="flex flex-col min-h-screen bg-gradient-to-t from-sky-200">
             <Header/>
             <div>
               <Toaster />
               {children}
             </div>
-            <Footer/>
           </div>
         </body>
       </html>

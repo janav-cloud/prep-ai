@@ -22,18 +22,18 @@ function Header() {
     };
 
     return (
-        <div className='p-3 bg-slate-100 flex flex-row items-center justify-between shadow-sm shadow-slate-200 relative'>
+        <div className='p-3 bg-sky-200 flex flex-row items-center justify-between shadow-sm shadow-slate-200 relative'>
             <div className='flex flex-row gap-2 items-center text-[18px] md:text-[20px] lg:text-[24px]'>
                 <Link href="/">
                     <Image 
                         src="/logo.svg"
                         alt="PrepAI"
-                        width={28}
-                        height={28}
+                        width={36}
+                        height={36}
                         className='object-contain'
                     />
                 </Link>
-                <h1 className='font-semibold'>Prep<span className='text-blue-500 font-bold'>AI</span></h1>
+                <h1 className='font-semibold'>Smart<span className='text-blue-500 font-bold'>Hire</span></h1>
             </div>
             <div className='md:hidden flex justify-center'>
                 <button onClick={toggleMenu}>

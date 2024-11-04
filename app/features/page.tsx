@@ -39,7 +39,7 @@ function Features() {
             <h2 className="mt-4 text-xl font-bold text-white">Seamless Journey</h2>
 
             <p className="mt-1 text-sm text-gray-300">
-            Experience a seamless preparation journey with PrepAI's guided paths. From topic selection to interview simulation, each step is streamlined to help you focus on improving specific skills and knowledge areas.
+            Experience a seamless preparation journey with SmartHire's guided paths. From topic selection to interview simulation, each step is streamlined to help you focus on improving specific skills and knowledge areas.
             </p>
           </a>
 
@@ -68,7 +68,7 @@ function Features() {
             <h2 className="mt-4 text-xl font-bold text-white">Benefits and Ease</h2>
 
             <p className="mt-1 text-sm text-gray-300">
-            Benefit from PrepAI's interactive AI assistance throughout your preparation. Receive prompt guidance, tips, and clarifications during interview simulations to enhance your understanding and performance readiness.
+            Benefit from SmartHire's interactive AI assistance throughout your preparation. Receive prompt guidance, tips, and clarifications during interview simulations to enhance your understanding and performance readiness.
             </p>
           </a>
 
@@ -97,7 +97,7 @@ function Features() {
             <h2 className="mt-4 text-xl font-bold text-white">Interview Simulation</h2>
 
             <p className="mt-1 text-sm text-gray-300">
-              PrepAI conducts realistic interview simulations tailored to your chosen field or industry. It generates questions based on your topic experience and evaluates your responses for depth and relevance.
+              SmartHire conducts realistic interview simulations tailored to your chosen field or industry. It generates questions based on your topic experience and evaluates your responses for depth and relevance.
             </p>
           </a>
 
@@ -126,7 +126,7 @@ function Features() {
             <h2 className="mt-4 text-xl font-bold text-white">Feedback & Tips</h2>
 
             <p className="mt-1 text-sm text-gray-300">
-            Receive feedback on your interview responses. PrepAI analyzes your answers, highlighting strengths and areas for improvement. It provides actionable tips to enhance your interview performance.
+            Receive feedback on your interview responses. SmartHire analyzes your answers, highlighting strengths and areas for improvement. It provides actionable tips to enhance your interview performance.
             </p>
           </a>
 
@@ -155,7 +155,7 @@ function Features() {
             <h2 className="mt-4 text-xl font-bold text-white">Adaptive Questioning Algorithm</h2>
 
             <p className="mt-1 text-sm text-gray-300">
-            Utilizing power of Gemini, PrepAI dynamically adjusts its questioning based on your responses. It ensures a challenging yet realistic interview experience, optimizing preparation for diverse interview scenarios.
+            Utilizing power of Gemini, SmartHire dynamically adjusts its questioning based on your responses. It ensures a challenging yet realistic interview experience, optimizing preparation for diverse interview scenarios.
             </p>
           </a>
 
@@ -184,7 +184,7 @@ function Features() {
             <h2 className="mt-4 text-xl font-bold text-white">Simple Interface</h2>
 
             <p className="mt-1 text-sm text-gray-300">
-            PrepAI offers an intuitive and user-friendly interface designed to simplify your interview preparation journey. Navigate effortlessly through simulations, feedback, and analytics to optimize your practice sessions.
+            SmartHire offers an intuitive and user-friendly interface designed to simplify your interview preparation journey. Navigate effortlessly through simulations, feedback, and analytics to optimize your practice sessions.
             </p>
           </a>
         </div>
