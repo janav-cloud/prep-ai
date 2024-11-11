@@ -32,7 +32,7 @@ function AddNew() {
         e.preventDefault();
         setLoading(true);
         
-        const  InputPrompt = "Generate"+process.env.NEXT_PUBLIC_QUESTION_COUNT+"tailored interview questions based on the"+jobRole+","+jobDescription+","+"and"+yearsOfExperience+". Carefully consider the candidate's level of expertise based on"+yearsOfExperience+",the job requirements based on the"+jobDescription+"and the necessary skills and qualifications needed for the position based on"+jobRole+".Aim is to create a list of pertinent, technical and insightful interview questions that will effectively assess the candidate's suitability for the given"+jobRole+". Only Generate Questions and their Answers in JSON file format.";
+        const  InputPrompt = "Generate"+process.env.NEXT_PUBLIC_QUESTION_COUNT+"tailored interview questions based on the"+jobRole+","+jobDescription+","+"and"+yearsOfExperience+". Carefully consider the candidate's level of expertise based on"+yearsOfExperience+",the job requirements based on the"+jobDescription+"and the necessary skills and qualifications needed for the position based on"+jobRole+".Aim is to create a list of pertinent, technical and insightful interview questions that will effectively assess the candidate's suitability for the given"+jobRole+". Only Generate Questions and their Answers in JSON file format strictly with no Markdown tags or styling or new line tags.";
         const result = await chatSession.sendMessage(InputPrompt);
 
         const JSONResponse = (result.response.text()).replace('```json','').replace('```','');
